@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <h2>First name</h2>
+        <input type="text" id="firstName" name="firstName" required size="10" />
+
+        <h2>Last name</h2>
+        <input type="text" id="lastName" name="lastName" required size="10" />
+
+        <h2>E-mail</h2>
+        <input type="text" id="email" name="email" required minlength="4" maxlength="8" size="10" />
+
+        <h2>Phone</h2>
+        <input type="number" id="phone" name="phone" required minlength="9" maxlength="" size="10" />
+
+        <h2>Date of birth</h2>
+        <input type="date" id="birthDate" name="trip-start" />
+
+        <h2>Gender</h2>
+        <label for="cars">Choose a car:</label>
+        <select name="gender" id="genders">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <h2>What are you looking for</h2>
+        <input type="radio" id="softwareEngineer" name="job" value="softwareEngineer">
+        <label for="softwareEngineer">Software Engineer</label><br>
+        <input type="radio" id="uxDesigner" name="job" value="uxDesigner">
+        <label for="uxDesigner">UX Designer</label><br>
+        <input type="radio" id="analitycsSpec" name="job" value="analitycsSpec">
+        <label for="analitycsSpec">Analitycs Specialist</label>
+        <input type="radio" id="projectManager" name="projectManager" value="projectManager">
+        <label for="projectManager">Project Manager</label>
+
+        <h2>Which programming languages do you know?</h2>
+        <input type="checkbox" id="java" name="java" value="java">
+        <label for="java">Java</label>
+        <input type="checkbox" id="javascript" name="javascript" value="javascript">
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" id="c#" name="c#" value="C#">
+        <label for="c#">C#</label>
+        <input type="checkbox" id="kotlin" name="kotlin" value="kotlin">
+        <label for="kotlin">Kotlin</label>
+        <input type="checkbox" id="python" name="python" value="python">
+        <label for="python">Python</label>
+        <input type="checkbox" id="scala" name="scala" value="scala">
+        <label for="scala">Scala</label>
+
+        <h2>Message</h2>
+        
+    </main>
+</body>
+
+</html>
