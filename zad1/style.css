@@ -1,0 +1,105 @@
+/* main{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.title {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.hamburger {
+    display: flex;
+    background-color: bisque;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bunTop {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(223, 171, 51);
+    border-bottom: 10px solid rgb(158, 104, 41);
+    border-radius: 60px 60px 10px 10px;
+}
+
+.cheese {
+    height: 15px;
+    width: 55%;
+    background-color: rgb(233, 202, 63);
+    border-bottom: 5px solid rgb(199, 188, 38);
+}
+
+.tomato {
+    width: 40%;
+    height: 40px;
+    border-bottom: 5px solid rgb(136, 4, 4);
+    background-color: red;
+}
+
+.meat {
+    width: 50%;
+    height: 30px;
+    background-color: brown;
+    border-radius: 30px;
+    border-bottom: 5px solid rgb(112,27,23);
+}
+
+.onion{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.onionCircle{
+    background-color: fuchsia;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.cucumber{
+    width: 50%;
+    height: 40px;
+    background-color: green;
+border-bottom: 15px solid green;
+
+}
+
+.meatball{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.bunDown{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(223, 171, 51);
+    border-top: 10px solid rgb(158, 104, 41);
+    border-radius: 20px 20px 60px 60px;
+}
+
+.plate {
+    width: 60%;
+    height: 40px;
+    background-color: darkgrey;
+    border-radius: 10px 10px 40px 40px;
+    border-top: 10px solid grey;
+}
