@@ -1,13 +1,11 @@
-/* main{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .container {
-    display: flex;
+    display: grid;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -30,7 +28,7 @@
 
 .bunTop {
     height: 50px;
-    width: 50%;
+    width: 60%;
     background-color: rgb(223, 171, 51);
     border-bottom: 10px solid rgb(158, 104, 41);
     border-radius: 60px 60px 10px 10px;
@@ -38,27 +36,27 @@
 
 .cheese {
     height: 15px;
-    width: 55%;
+    width: 65%;
     background-color: rgb(233, 202, 63);
     border-bottom: 5px solid rgb(199, 188, 38);
 }
 
 .tomato {
-    width: 40%;
-    height: 40px;
+    width: 45%;
+    height: 20px;
     border-bottom: 5px solid rgb(136, 4, 4);
     background-color: red;
 }
 
 .meat {
-    width: 50%;
-    height: 30px;
+    width: 55%;
+    height: 20px;
     background-color: brown;
     border-radius: 30px;
-    border-bottom: 5px solid rgb(112,27,23);
+    border-bottom: 5px solid rgb(112, 27, 23);
 }
 
-.onion{
+.onion {
     background-color: blueviolet;
     display: flex;
     align-items: center;
@@ -66,39 +64,46 @@
     gap: 10px;
 }
 
-.onionCircle{
+.onionCircle {
     background-color: fuchsia;
     height: 20px;
     width: 20px;
     border-radius: 50%;
 }
 
-.cucumber{
-    width: 50%;
-    height: 40px;
-    background-color: green;
-border-bottom: 15px solid green;
-
+.meatBallContainer {
+    display: flex;
+    width: 40%;
+    height: 80%;
 }
 
-.meatball{
-    width: 70px;
-    height: 70px;
+.meatBall {
+    width: 50px;
+    height: 50px;
     background-color: brown;
     border-radius: 50%;
 }
 
-.bunDown{
-    height: 50px;
-    width: 50%;
+.cucumber {
+    width: 45%;
+    height: 30px;
+    border-radius: 20px 20px 130px 130px;
+    background-color: rgb(110, 219, 110);
+    border-bottom: 10px solid green;
+
+}
+
+.bunDown {
+    height: 35px;
+    width: 60%;
     background-color: rgb(223, 171, 51);
     border-top: 10px solid rgb(158, 104, 41);
     border-radius: 20px 20px 60px 60px;
 }
 
 .plate {
-    width: 60%;
-    height: 40px;
+    width: 80%;
+    height: 30px;
     background-color: darkgrey;
     border-radius: 10px 10px 40px 40px;
     border-top: 10px solid grey;
